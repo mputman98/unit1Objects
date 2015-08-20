@@ -8,6 +8,8 @@ public class TurtleWorld
         Turtle turtle = new Turtle(turtleWorld);
         turtle.setPenColor(Color.RED);
         turtle.penDown();
-        turtle.forward(50);
+        turtle.forward(20);
+        turtle.setPenWidth(2);
+        turtle.forward(20);
     }
 }
