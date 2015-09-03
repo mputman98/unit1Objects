@@ -4,8 +4,7 @@ public class TurtleWorld
 {
     public static void main(String args[])
     {
-        World turtleWorld = new World();
-        Turtle turtle = new Turtle(turtleWorld);
+        c
         turtle.setPenColor(Color.RED);
         turtle.penDown();
         turtle.forward(20);
@@ -13,3 +12,4 @@ public class TurtleWorld
         turtle.forward(20);
     }
 }
+
